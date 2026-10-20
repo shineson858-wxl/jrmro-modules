@@ -1,0 +1,23 @@
+# 敏感与环境配置
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# 运行产物与数据
+/storage/**
+!/storage/.gitkeep
+*.log
+*.sqlite
+/cache/
+/session/
+
+# 备份与临时文件
+*.bak
+*.bak_*
+*~
+/.idea/
+/.vscode/
+.DS_Store
+Thumbs.db
